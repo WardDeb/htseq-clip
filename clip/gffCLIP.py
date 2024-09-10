@@ -45,7 +45,7 @@ class GeneInfo:
     class for all gene feature related info, such as gene, intron, exon...
     '''
 
-    def __init__(self, id, geneDefinitions = ["tRNA", "gene", "tRNAscan", "tRNA_gene"]):
+    def __init__(self, id, geneDefinitions = ["tRNA", "gene", "tRNAscan", "tRNA_gene", "ncRNA_gene"]):
         self.id  = id
         self._featList = []
         self._geneDefinitions = set(geneDefinitions)
