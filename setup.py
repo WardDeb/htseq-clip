@@ -20,11 +20,11 @@ except ImportError as e:
 #    sys.stderr.write("Could not import HTSeq dependency 'Cython'. Please install it with pip install Cython and then try again to install htseq-clip. \n Exception: {}".format(e))
 #    sys.exit(1)
 
-try:
-	import numpy
-except ImportError as e:
-    sys.stderr.write("Could not import numpy. Please install it with pip install numpy and then try again to install htseq-clip. \n Exception: {}".format(e))
-    sys.exit(1)
+#try:
+#	import numpy
+#except ImportError as e:
+#    sys.stderr.write("Could not import numpy. Please install it with pip install numpy and then try again to install htseq-clip. \n Exception: {}".format(e))
+#    sys.exit(1)
 
 here = os.path.abspath(os.path.dirname(__file__))
 
